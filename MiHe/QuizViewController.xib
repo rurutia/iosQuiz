@@ -33,12 +33,18 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" red="0.41127939516000189" green="0.91302814136125654" blue="0.39523098829364234" alpha="1" colorSpace="calibratedRGB"/>
                     <state key="normal" title="Show Question"/>
+                    <connections>
+                        <action selector="showQuestion:" destination="-1" eventType="touchUpInside" id="7K0-u3-f6X"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DaM-FR-M1k">
                     <rect key="frame" x="65" y="574" width="221" height="30"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" red="0.41127939520000001" green="0.91302814139999999" blue="0.39523098829999997" alpha="1" colorSpace="calibratedRGB"/>
                     <state key="normal" title="Show Answer"/>
+                    <connections>
+                        <action selector="showAnswer:" destination="-1" eventType="touchUpInside" id="ygQ-gK-ct6"/>
+                    </connections>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="???" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gPU-4A-QoP">
                     <rect key="frame" x="16" y="523" width="343" height="43"/>
